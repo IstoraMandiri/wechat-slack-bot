@@ -24,6 +24,7 @@
   },
   "dependencies": {
     "google-translate": "^1.0.6",
+    "phantomjs": "^2.1.7",
     "slackbots": "^0.5.2",
     "striptags": "^2.1.1",
     "wechaty": "^0.3.16"
