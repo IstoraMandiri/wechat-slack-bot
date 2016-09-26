@@ -1,0 +1,11 @@
+{
+  "GOOGLE_TRANSLATE_API_KEY": "xxx",
+  "SLACK_BOT_API_KEY": "xxx",
+  "SLACK_BOT_NAME": "wechat-bot",
+  "CHANNELS_MAP": {
+    "00000000": { // replace with `room.rawObj.OwnerUin`
+      "SLACK_CHANNEL": "wechat",
+      "LABEL": "A WeChat Group"
+    }
+  }
+}
