@@ -18,7 +18,7 @@ slackBot.on("start", () => {
   wechatBot
     .on("scan", (qrcode, status) =>
       slackBot.postMessageToChannel(
-        "general",
+        channelInfo.SLACK_CHANNEL,
         `Scan QR Code to login: https://api.qrserver.com/v1/create-qr-code/?data=${encodeURIComponent(
           qrcode
         )}`
